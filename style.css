@@ -2,9 +2,6 @@
     max-height: fit-content;
     max-width: fit-content;
 }
-.elements {
-    cursor: pointer;
-}
 .header1 {
     margin: 0%;
     margin-top: -10px;
@@ -33,6 +30,8 @@
     border: 1px solid rgb(246, 223, 253);
     background-color:#edfff2;
     border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 /** for 2nd div **/
