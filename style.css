@@ -18,7 +18,7 @@
     padding-top: 8px;
 }
 #e1{
-    margin-left: 20px;
+    margin-left: -5px;
 }
 #e2{
     margin-left: 80%;
@@ -274,4 +274,7 @@
 }
 .event-period-child{
     font-weight: bold;
+}
+.header1{
+    text-decoration: none;
 }
