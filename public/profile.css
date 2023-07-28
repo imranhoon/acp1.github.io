@@ -1,0 +1,209 @@
+.header1 {
+    margin: 0%;
+    margin-top: 0%;
+    height: 40px;
+    background-color:#bffad0;   
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding-top: 8px;
+    font-family:'Times New Roman', Times, serif;
+}
+#profile-icon{
+    height: 30px;
+    width: 30px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+#e1{
+    margin-left: -5px;
+}
+#e2{
+    margin-left: 90%;
+}
+.elements:hover{
+    color:blue;
+    font-weight: bolder;
+    background-color: #bafccdaf;
+}
+.elements{
+    font-size: larger;
+    cursor: pointer;
+    text-decoration: none; 
+    color: #290404;
+}
+
+#header2{
+    margin-top: -49px;
+    height: 100px;
+    width: 100%;
+    background-color:#bffad0;
+}
+#cap-image{
+    max-width: 50px;
+    max-height: 50px;
+}
+#h3{
+    margin-left: 36%;
+    font-family: 'Dancing Script', cursive;
+    padding-bottom: -20px;
+    font-size: 50px;
+    margin-top: -90px;
+}
+.logo{
+    margin-bottom: -110px;
+}
+#logo-image{
+    margin-top: 5px;
+    margin-left: 20px;
+    max-width: 140px;
+    max-height: 140px;
+}
+#p1{
+    font-style: italic;
+    color: rgb(48, 0, 72);
+    margin-top: -48px;
+    margin-left: 45%;
+}
+#img1{
+    max-height:fit-content;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+/* --------------------------------------------- */
+
+.title-word {
+    animation: color-animation 4s linear infinite;
+  }
+  
+  .title-word-1 {
+    --color-1: #DF8453;
+    --color-2: #3D8DAE;
+    --color-3: #E4A9A8;
+  }
+  
+  .title-word-2 {
+    --color-1: #DBAD4A;
+    --color-2: #3eba51;
+    --color-3: #17494D;
+  }
+  
+  .title-word-3 {
+    --color-1: #ACCFCB;
+    --color-2: #E4A9A8;
+    --color-3: #ACCFCB;
+  }
+  
+  .title-word-4 {
+    --color-1: #3D8DAE;
+    --color-2: #DF8453;
+    --color-3: #7439c0;
+  }
+  .title-word-5 {
+    --color-1: #3dae8c;
+    --color-2: #9053df;
+    --color-3: #a8e4e0;
+  }
+  
+  @keyframes color-animation {
+    0%    {color: var(--color-1)}
+    32%   {color: var(--color-1)}
+    33%   {color: var(--color-2)}
+    65%   {color: var(--color-2)}
+    66%   {color: var(--color-3)}
+    99%   {color: var(--color-3)}
+    100%  {color: var(--color-1)}
+  }
+  
+  /* Here are just some visual styles. 🖌 */
+  
+  .container {
+    display: grid;
+    place-items: center;  
+    text-align: center;
+    height: 300px;
+    margin-top: -100px;
+  }
+  
+  .title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 8.5vw;
+    text-transform: uppercase;
+  }
+
+#messege{
+    margin-left: 30%;
+    margin-top: -20px;
+    color: #000000;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* ******** View n Edit ******** */
+
+.container1 {
+    margin-left: 200px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    margin: 100px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    column-gap: 10px;
+    place-items:inherit;
+}
+.item {
+    border: 0.5px solid rgb(182, 179, 179);
+    padding: 10px;
+    height: 25px;
+    width: 500px;
+    margin-left: 8px;
+    column-gap: 10px;
+    /* background-color: #f7fbf8; */
+    background-color:aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    border-color: rgb(221, 233, 255);
+    border-radius: 10px;
+    box-shadow: 3px 3px rgb(216, 216, 216);
+    margin-left: 90px;
+    font-size: large;
+}
+.mark{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    display: inline;
+    padding-right: 410px;
+    /* background-color: rgba(53, 73, 171, 0.884); */
+    color: rgba(53, 73, 171, 0.884);
+    /* font-weight: bold; */
+    width: 80px;
+    /* font-size:; */
+}
+
+
+/* *************************FOOTER  */
+
+#footer{
+    margin-top: 0%;
+    width: 100%;
+    height: 130px;
+    background-color: #bffad0;
+}
+#copyright{
+    margin-top: -10px;
+    margin-left: 45%;
+   padding-top: 15px;
+}
+#sm_follow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.sm_icons{ 
+    margin-left: 13px;
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="public/login_signup.css">
+    <title>Registration</title>
+    <link rel="stylesheet" href="public/signup.css">
+
+</head>
+
+<body id="body">
+    <div class="wrapper">
+
+        <!----------------------------- Form box ----------------------------------->
+        <div class="top">
+            <span id="span1">Have an account? <a href="/login">Login</a></span>
+            <header>Sign Up</header>
+        </div>
+        <div class="form-box">
+
+            <!------------------- registration form -------------------------->
+            <div class="register-container" id="register">
+                <form action="/sign_up" method="POST">
+                    <div class="two-forms">
+                        <div class="input-box">
+                            <input type="text" class="input-field" placeholder="Firstname" name="firstname"
+                                id="firstname" required>
+                            <i class="bx bx-user"></i>
+                        </div>
+
+                        <div class="input-box">
+                            <input type="text" class="input-field" placeholder="Lastname" name="lastname" id="lastname"
+                                required>
+                            <i class="bx bx-user"></i>
+                        </div>
+                    </div>
+                    <div class="two-forms">
+                        <div class="input-box">
+                            <input type="text" class="input-field" placeholder="Course Name" name="coursename"
+                                id="coursename" required>
+                            <i class="bx bx-laptop"></i>
+                        </div>
+                        <div class="input-box">
+                            <input type="text" class="input-field" placeholder="Year Enrolled" name="yearenrolled"
+                                id="yearenrolled" required>
+                            <i class="bx bx-calendar"></i>
+                        </div>
+                    </div>
+                    <div class="two-forms">
+                        <div class="input-box">
+                            <input type="text" class="input-field" placeholder="linkedin Profile URL"
+                                name="inprofileurl" id="inprofileurl" required>
+                            <i class='bx bxl-linkedin-square'></i>
+                        </div>
+
+
+                        <div class="input-box">
+                            <input type="text" class="input-field" placeholder="Username" name="username" id="username"
+                                required>
+                            <i class="bx bx-user"></i>
+                        </div>
+
+                    </div>
+                    <div class="two-forms">
+
+
+                        <div class="input-box">
+                            <input type="text" class="input-field" placeholder="Email" id="email" name="email" required>
+                            <i class="bx bx-envelope"></i>
+                        </div>
+
+                        <div class="input-box">
+                            <input type="text" class="input-field" placeholder="Password" id="password" name="password"
+                                required>
+                            <i class="bx bx-lock-alt"></i>
+                        </div>
+
+                    </div>
+
+                    <div class="input-box" id="input-box-register">
+                        <input type="submit" class="submit" value="Register" id="submit">
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Table</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper" style="width:1000px;margin:0 auto;">
+        <div id="header"
+            style="border: 1px solid gray;height:80px;text-align:center;padding:30px 0 0 0;font-size:30px;">
+            Fron End Back End Example
+        </div>
+        <div id="menu" style="border: 1px solid gray;">
+            <div class="menu-item" style="float:left;padding:10px 20px 10px 20px;width:200px;border:1px solid gray;"><a
+                    href="/home">Home</a></div>
+            <div class="menu-item" style="float:left;padding:10px 20px 10px 20px;width:200px;border:1px solid gray;"><a
+                    href="/home">About</a></div>
+            <div class="menu-item" style="float:left;padding:10px 20px 10px 20px;width:200px;border:1px solid gray;"><a
+                    href="/table">Table</a></div>
+            <div class="menu-item" style="float:left;padding:10px 20px 10px 20px;width:200px;border:1px solid gray;"><a
+                    href="/home">Contact</a></div>
+        </div>
+
+        <div style="border: 1px solid gray;padding:50px 0 0 100px;">
+            <h1>Table</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Course Name</th>
+                        <th>Year</th>
+                        <th>LinkedIn</th>
+                        <th>Email</th>
+                        <th>Password</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {{#each formData}}
+                    <tr>
+                        <td>{{this.firstname}}</td>
+                        <td>{{this.coursename}}</td>
+                        <td>{{this.yearenrolled}}</td>
+                        <td>{{this.inprofileurl}}</td>
+                        <td>{{this.email}}</td>
+                        <td>{{this.password}}</td>
+                    </tr>
+                    {{/each}}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
